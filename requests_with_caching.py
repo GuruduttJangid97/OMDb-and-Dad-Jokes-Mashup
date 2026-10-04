@@ -18,6 +18,7 @@ def _read_from_file(fname):
     except:
         return {}
 
+#Add to Cache
 def add_to_cache(cache_file, cache_key, cache_value):
     temp_cache = _read_from_file(cache_file)
     temp_cache[cache_key] = cache_value
