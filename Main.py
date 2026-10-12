@@ -10,4 +10,4 @@ def get_movie_data(name: str) -> dict:
     title = requests_with_caching.get(base_url, params=params, permanent_cache_file="./assets/permanent_cache.txt")
     print(title.json())
 
-get_movie_data("Black Panther")
+get_movie_data("Venom")
